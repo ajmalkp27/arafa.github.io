@@ -178,7 +178,8 @@ nav img{
         height: 100vh;
         flex-direction: column;
         background:rgba(255,255,255,0.05);
-        backdrop-filter:blur(30px);
+        backdrop-filter:blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         width: 100%;
         text-align: center;
         transition: 0.7s;
