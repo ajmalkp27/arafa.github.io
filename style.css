@@ -184,7 +184,7 @@ nav .fa{
 */
 @media screen and (max-width: 600px) {
     .header{
-        width: auto;
+        width: -webkit-fill-available;
     }
     .header .text h1{
         font-size: 40px;
