@@ -1,5 +1,17 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu")
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+
+document.onclick = function(e){
+    if (e.target.id !== 'hamburger' && e.target.id !== 'nav-menu'){
+        hamburger.classList.remove('active');
+        navMenu.classList.remove('active');
+    }
+}
+
+
+
+
+
 
 
 hamburger.addEventListener("click",()=>{
@@ -7,3 +19,4 @@ hamburger.addEventListener("click",()=>{
     navMenu.classList.toggle("active");
 
 })
+
