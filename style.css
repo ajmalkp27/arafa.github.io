@@ -253,7 +253,7 @@ nav img{
 
 section .myslides{
     position: absolute;
-
+    border-radius:5px;
     height: 45vh;
     width: 80vw;
     object-fit: cover;
@@ -273,9 +273,103 @@ section .myslides{
     
     }
     section .myslides{
+        border-radius: 6px;
         height: 45vh;
         width: 80vw;
         object-fit: cover;
+    }
+    
+}
+
+
+
+
+.service-head #h1s{
+    font-size: 40px;
+}
+
+.service-head p span{
+    color:red;
+    font-weight: 600;
+}
+.service{
+    height: 100vh;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.service-row{
+    margin: 5%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+} 
+.service-col{
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/f2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-basis: 40%;
+    background-color:#fff ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 100px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.sc{
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/f1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-basis: 40%;
+    background-color:#fff ;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 100px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+
+}
+.service p{
+    font-weight: normal;
+    font-size: 19px;
+    
+}
+.service-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    background-color:rgb(230,230,250);
+
+}
+.service-row .service-col h1{
+    font-size: 35px;
+}
+
+@media screen and (max-width: 600px) {
+    .service{
+        margin-top: 250px;
+    }
+    .service-row{
+        margin: 18%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .service-col{
+        margin-bottom: 15%;
+        margin-left:-15%;
+        width: 70vw;
+        padding: 55px 0px;
+       
+    
     }
     
 }

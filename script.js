@@ -20,13 +20,6 @@ hamburger.addEventListener("click",()=>{
 })
 
 
-let text=document.getElementById('text');
-window.addEventListener('scroll',function(){
-    let value=window.scrollY;
-   
-    text.style.right = value * 4 + 'px';
-    
-})
 
 
 function slides() { 
