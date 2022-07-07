@@ -10,19 +10,20 @@
         
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     </head>
 
     <body>
         <section class="header" id="header">
             <nav class="navbar">
-                <a class="nav-branding" href=""><img src="images/logo.png"></a>
+                <a class="nav-branding" href="#header"><img src="images/logo.png"></a>
                 <div class="nav-links" id="navLinks">
 
                     <ul class="nav-menu" id="nav-menu">
                         <li class="nav-item" id="nav-item"><a class="nav-link" href="#header">HOME</a></li>
                         <li class="nav-item" id="nav-item"><a class="nav-link" href="#abt">ABOUT</a></li>
                         <li class="nav-item" id="nav-item"><a class="nav-link" href="#ser">SERVICE</a></li>
-                        <li class="nav-item" id="nav-item"><a class="nav-link" href="#header">LOCATION</a></li>
+                        <li class="nav-item" id="nav-item"><a class="nav-link" href="#contacts">CONTACT</a></li>
                     </ul>
                     
                 </div>
@@ -35,7 +36,7 @@
             <div class="text" >
                 <h1 id="text">ARAFA TRADERS</h1>
                 <P>WHOLESALE RICE MERCHANT<br><span>COIMBATORE</span></P>
-                <a href="" class="btn">Visit Us</a>
+                <a href="#contacts" class="btn">Visit Us</a>
             </div>
         </section>
         <section class="about" id="abt">
@@ -98,6 +99,53 @@
                 
             </div>
         </section>
+        <section class="contact">
+            <div class="contact-us" id="contacts">
+                <h1>CONTACT <span>US</span></h1>
+            </div>
+            <section class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3916.5883177057535!2d76.95631031506652!3d10.994414417066317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x39621c584e8fe87f!2sArafa%20Traders!5e0!3m2!1sen!2sin!4v1657187723807!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+        </section>
+        <section class="contact-me">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>ARAFA TRADERS, 823, RG street</h5>
+                            <p>Townhall, Coimbatore, TamilNadu, 641001</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>9442002791</h5>
+                            <p>Monday to Saturday, 8AM to 10AM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>arafatraders@gmail.com</h5>
+                            <p>Email us Your qurey</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                    
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+            
 
 
 
