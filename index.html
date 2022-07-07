@@ -134,12 +134,12 @@
                     </div>
                 </div>
                 <div class="contact-col">
-                    <form action="https://formsubmit.co/el/vexufi" method="POST">
+                    <form action="form-handler.php" method="post">
                     
-                        <input type="text" name="name" placeholder="Enter your name" required>
-                        <input type="email" name="email" placeholder="Enter email address" required>
-                        <input type="text" name="subject" placeholder="Enter your subject" required>
-                        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" id="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" id="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" id=",message" placeholder="Message" required></textarea>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
                 </div>
@@ -152,7 +152,7 @@
 
        
 
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="script.js"></script>
         
     </body>

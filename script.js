@@ -63,3 +63,21 @@ function slidesi() {
 
  }
  slidesp()
+
+ function sendEmail(){
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "ajkp008@gmail.com",
+            Password : "Ajmalkp@2432",
+            To : 'ajkp008@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact customer",
+            Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                +"<br> Subject: " + document.getElementById("subject").value
+                + "<br> Message: " + document.getElementById("message").value
+            
+        }).then(
+        message => alert("Message Send Successfully")
+        );
+ }
