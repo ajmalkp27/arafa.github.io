@@ -304,8 +304,11 @@ section .myslides{
     color:red;
     font-weight: 600;
 }
+.service-para{
+    display: none;
+}
 .service{
-    height: 100vh;
+    height: 80vh;
     width:80%;
     margin: auto;
     text-align: center;
@@ -384,5 +387,106 @@ section .myslides{
        
     
     }
+    .service-parah{
+        display: none;
+    }
+    .service-para{
+        margin-bottom: 25px;
+        display:block;
+    }
+    .product{
+        position: absolute;
+     
+        height: 60vh;
+        width: 100vw;
+    }
     
+    .pr-gal{
+        height: 60vh;
+        width: 100vw;
+        position: absolute;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+        align-items: center;
+     
+    }
+    
+    .product .pr-gal img{
+    
+        align-items: center;
+        align-content: center;
+        position: relative;
+        height: 50vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+    
+}
+
+.product{
+    position: absolute;
+    left: 10%;
+    height: 60vh;
+    width: 80%;
+    
+
+    align-items: center;
+    
+    
+}
+
+.pr-gal{
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    align-items: center;
+ 
+}
+
+.product .pr-gal img{
+
+    align-items: center;
+    align-content: center;
+    position: relative;
+    height: 50vh;
+    width: 200px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 600px) {
+    .pr-gal{
+        height: 60vh;
+        width:100%;
+     
+    }
+    .product .pr-gal .pr-slides{
+        height: 50vh;
+        width: 70vw;
+    }
+   
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .product .pr-gal{
+        margin-top: 200px;
+    }
+
+}
+
+.brands h1{
+    text-align: center;
+    font-size: 40px;
 }
