@@ -2,25 +2,20 @@ const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const header = document.getElementById('header');
 
+const toggle = document.getElementById('toggle');
+const navbar = document.getElementById('navbar');
 document.onclick = function(e){
-    if (e.target.id !== 'hamburger' && e.target.id !== 'nav-menu' ){
-        hamburger.classList.remove('active');
-        navMenu.classList.remove('active');
-        
+    if (e.target.id !== 'toggle' && e.target.id !== 'toggle'){
+        toggle.classList.remove('active');
+        navbar.classList.remove('active');
     }
 }
 
 
-hamburger.addEventListener("click",()=>{
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-    
-    
-
-})
-
-
-
+toggle.onclick = function(){
+    toggle.classList.toggle('active');
+    navbar.classList.toggle('active');
+}
 
 function slidesi() { 
     var myIndex = 0;
