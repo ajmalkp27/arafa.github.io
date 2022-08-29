@@ -79,7 +79,7 @@ nav img{
     padding: 0;
     text-align:center;
     font-family: "Sofia", sans-serif;
-    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(209, 190,13), rgb(209, 190,13), rgb(209, 190, 13), rgb(155, 145, 14),rgb(255, 255, 255), rgb(230, 230, 230), rgb(240, 240, 240));
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 238, 0),rgb(255, 255, 255), rgb(230, 230, 230), rgb(240, 240, 240));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: slide 10s  forwards;
