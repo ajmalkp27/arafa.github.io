@@ -1185,19 +1185,9 @@ section .myslides{
 
 @media screen and (max-width: 600px) {
     .footerimg{
-        width:100vw;
-        align-items: center;
-        justify-content: center;
-        display:flex
+        display: none;
     }
-    .footerimg img{
-       
-        width: 50%;
-        height: 100px;
-        object-fit: cover;
-        
-       
-    }
+
     
 
 
