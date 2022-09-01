@@ -761,6 +761,9 @@ section .myslides{
        
     
     }
+    
+  
+
     .service-parah{
         display: none;
     }
@@ -847,7 +850,7 @@ section .myslides{
         width: 70vw;
     }
     .brands h1{
-        margin-top:60px;
+        margin-top:140px;
         }
    
    
@@ -1014,6 +1017,27 @@ section .myslides{
 
 
 
+.contact-col div .fa-facebook{
+    
+    color: #4267B2;
+    margin: 10px;
+    margin-right: 30px;
+
+}
+.contact-col div .fa-whatsapp{
+    
+    color: #34B7F1;
+    margin: 10px;
+    margin-right: 30px;
+
+}
+.contact-col div .fa-instagarm{
+    
+    color: #8a3ab9;
+    margin: 10px;
+    margin-right: 30px;
+
+}
 
 
 
