@@ -1167,3 +1167,40 @@ section .myslides{
     
 
 }
+
+.footerimg{
+    width:98vw;
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+.footerimg img{
+   
+    width: 50%;
+    height: 150px;
+    
+   
+}
+
+
+@media screen and (max-width: 600px) {
+    .footerimg{
+        width:100vw;
+        align-items: center;
+        justify-content: center;
+        display:flex
+    }
+    .footerimg img{
+       
+        width: 50%;
+        height: 100px;
+        object-fit: cover;
+        
+       
+    }
+    
+
+
+
+
+}
