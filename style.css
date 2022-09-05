@@ -83,7 +83,7 @@ nav img{
     background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 230, 0), rgb(255, 238, 0),rgb(255, 255, 255), rgb(230, 230, 230), rgb(240, 240, 240));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: slide 10s i forwards;
+    animation: slide 10s infinite forwards;
 
 }
 @keyframes slide{
@@ -898,12 +898,7 @@ section .myslides{
     margin-top: 450px;
 }
 
-.contact video{
-    border-radius:10px;
-    height: 45vh;
-    width: 82vw;
-    object-fit: cover;
-}
+
 .contact-us{
     position: relative;
    
@@ -929,15 +924,9 @@ section .myslides{
         width: 100%;
         height:50vh;
     }
-    .contact video{
-        
-        
-        width: 95%;
-    
-    }
 }
 
-    }
+    
 
     @media screen and (max-width: 375px) {
         .contact{
@@ -997,7 +986,7 @@ section .myslides{
 .contact-me{
     width: 80%;
     margin:auto;
-    margin-top:300px;
+    
     
 }
 
@@ -1059,10 +1048,7 @@ section .myslides{
 
 
 @media screen and (max-width: 600px) {
-    .contact-me{
-        margin-top:180px;
     
-    }
     .contact-col h5{
         font-size: 15px;
         margin-bottom: 5px;
@@ -1078,9 +1064,7 @@ section .myslides{
     }
 
 @media screen and (max-width: 600px) {
-        .contact-me{
-            margin-top:240px;
-        }
+       
 }
     
 
@@ -1134,6 +1118,11 @@ section .myslides{
     
 }
 
+.contact-col h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
 @keyframes backimg{
     0%{
         transform: translateY(0px);
@@ -1144,6 +1133,7 @@ section .myslides{
 }
 
 .caption{
+    position:absolute;
     font-size: 15px;
     width: 100%;
     align-items: center;
@@ -1154,7 +1144,7 @@ section .myslides{
     font-size: 15px;
     justify-content: center;
     align-items: center;
-    margin-top:25px;
+    margin-top:82px;
     opacity: .7;
 }
 .caption span{
@@ -1178,7 +1168,7 @@ section .myslides{
         font-size: 10px;
         justify-content: center;
         align-items: center;
-        margin-top:70px;
+        margin-top:50px;
         padding-left:20px;
         opacity: .7;
     }
